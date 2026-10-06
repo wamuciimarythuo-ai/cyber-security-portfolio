@@ -1,2 +1,41 @@
-# cyber-security-portfolio
-My Personal cybersecurity and digital forensics learning portfolio
+Hello I'm Mary Thuo
+
+I have studied Bachelor of Applied Computing specialised in Cyber Security and Digital Forensics through hands-on-practice, labs and personal projects.
+
+This repository documents my learning journey including the tools I practice with, security labs I complete, investigations I carry out and lessons I learn along the way.
+
+Areas I'm exploring
+-Cybersecurity fundamentals
+-Networking and network security
+-Vulnerability assessment
+-Linux Security
+-Incident response
+-Security investigations
+
+Tools I'm practicing with
+-Kali Linux
+-Parrot OS
+-Nmap
+-Wireshark
+-Metasploitable
+-Git& GitHub
+-Python
+
+Hands-On Labs
+My labs focus on learning by doing. Each lab documents the objective, environment, tools used, methodology, observation, findingd and what I learned.
+
+Digital Forensics
+I'm also developing practical skills in digital forensics, including evidence handling, file analysis, hashing, metadata and forensic investigation techniques.
+
+Projects
+This section will contain personal cybersecurity-related projects as I build them
+
+Learning notes
+Collection of notes and concept I'm learning as I develop my cybersecurity knowledge.
+
+My Goal
+To build strong practical cybersecurity and digital forensics skills through continuous learning, hands-on labs and real-world problem solving
+
+
+
+
