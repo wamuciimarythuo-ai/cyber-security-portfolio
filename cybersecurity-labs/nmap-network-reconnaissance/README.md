@@ -1,9 +1,9 @@
-Nmap Network Reconnaissance Lab
+# Nmap Network Reconnaissance Lab
 
-Objective
-The objective of this lab was to practice network reconnaissance using Nmap and identify the open ports,services,service versions and operating system information of a ddeliberately vulnerable Metasploitable virtual machine
+## Objective
+The objective of this lab was to practice network reconnaissance using Nmap and identify the open ports,services,service versions and operating system information of a deliberately vulnerable Metasploitable virtual machine
 
-Lab Environment
+## Lab Environment
 Component        Details
 Attacker Machine-Kali Linux
 Target Machine-  Metasploitable2
@@ -12,13 +12,13 @@ Kali IP-         192.168.93.30
 Network-         192.168.93.0/24
 Virtualization-  Virtual box
 
-Tools used
+## Tools used
 -Kali Linux
 -Nmap
 -Metasploitable2
 -VirtualBox
 
-Methodology
+## Methodology
 The reconnaissance was performed in 3 stages
 1. Basic port scanning
 2. Service and version detection
@@ -26,14 +26,20 @@ The reconnaissance was performed in 3 stages
 
 All scanning was performed against my own Metasploitable virtual machine in a controlled lab environment.
 
-Commands used
+## Commands used
 1. Basic Port Scan
+
+'''bash
 nmap 192.168.93.252
+'''
 
 This scan was used to identify TCP ports that were open on the target.
 
 2. Service and Version Detection
+
+'''bash
 nmap -sV 192.168.93.252
+'''
 
 This scan was used to identify the probable operating system and kernel version of the target.
 
@@ -61,7 +67,7 @@ Linux 2.6x
 
 Nmap estimated the network distance as 1 hop
 
-Findings
+## Findings
 The reconnaissance revealed that the target machine exposes a large number of network services.
 
 The most important observations were:
@@ -70,12 +76,12 @@ The most important observations were:
 -FTP,Telnet,HTTP,SSH,database,SMB,VNC and other services were running.
 -The large number of exposed services provides a useful environment for studying vulnerabilities assessment in a controlled lab.
 
-Security Observations
+## Security Observations
 Exposing unnecessary services can increase the attack surface of a system.
 
 Service and version enumeration is useful during security assessment because it helps identify technologies that may require further security assessments beacuse it helps identify technologies that may require further security investigation,patching,configuration review or vulnerability assessment.
 
-Lessons Learned
+## Lessons Learned
 This lab helped me understand:
 -How Nmap identifies open ports.
 -The difference between port scanning and service enumeration.
@@ -84,7 +90,7 @@ This lab helped me understand:
 -How reconnaissance provides information for later security assessment activities.
 -The importance of performing security scans only against systems I own or have permissions to test.
 
-Conclusion
+## Conclusion
 The Nmap reconnaissaince lab successfully identifies the exposed network services and operating system characteristics of the Metasploitable target.
 This exercise provided practical experience with network reconnaissance and established a  foundation for future vulnerability and security investigation labs.
 
